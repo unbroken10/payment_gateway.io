@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+/* this is my css*/
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(./child-adult-holding-money-jar-donation-saving-concept_49149-1117.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    font-weight:bold;
+}
+nav{
+
+    height:10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0, 166, 255, 0.067);
+}
+.logo{
+    font-size: 28px;
+   color : rgb(21, 123, 195);
+}
+.ulist{
+    float: none;
+    position:relative
+}
+nav ul li{
+    display: inline-block;
+    padding:10px 20px;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(141, 132, 132);
+}
+nav ul li a:hover{
+    color: black;
+    transition: .3s;
+}
+
+main{
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 70px;
+}
+main .main-left{
+    
+    font-size: 40px;
+    max-width: 50%;
+    float: left;
+   
+}
+
+.donate{
+    color:red;
+    font-size: 55px;
+}
+.boton{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+
+/* this is css for about */
+
+
+main h1{
+    margin-top: -15%;
+    margin-left: 20%;
+    font-size: 40px;
+}
+.main-leftc {
+    font-size: 15px;
+    max-width: 50%;
+    margin-top: 5%;
+    margin-left: -2%;
+    float: left;
+    text-decoration: none;
+    font-weight:normal
+}
+.main-leftc p{
+    margin-left: 0px;
+    line-height: 16px;
+    letter-spacing: .5px;
+}
+form{
+    margin: 30px;
+    width: 20%;
+}
+.input-field, .input-fieldf, .input-fields{
+    margin-top: 20px;
+    width:400px;
+    height:35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 8px;
+}
+.input-fieldf{
+    height:150px;
+}
+.input-fields{
+    background-color:rgb(4, 4, 101);
+    color:azure;
+    border-radius: 14px;
+}
